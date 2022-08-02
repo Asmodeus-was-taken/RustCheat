@@ -42,9 +42,6 @@ namespace esp {
 	}
 
 
-//all ways day 
-safe_write(TodCycle + 0x10, floats::Time, float);
-
 
 UINT_PTR GetName() { // player name
 		auto player_name = safe_read((uintptr_t)this + oPlayerName, UINT_PTR);
@@ -110,7 +107,7 @@ void Cam() // fix cam
 		safe_write(camera + 0x34, 1.f, float);
 	}
 
-oid todsky() { // always day
+void todsky() { // always day
 		UINT64 klass = safe_read(game_assembly + oTOD_Sky, UINT64);
 		UINT64 static_fields = safe_read(klass + 0xB8, UINT64);
 		UINT64 instances = safe_read(static_fields, UINT64);
