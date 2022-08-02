@@ -1,1 +1,3 @@
-![image](https://user-images.githubusercontent.com/103351450/182267756-df8b6734-1a34-4ee2-bb84-72c005a70f44.png)
+Rust Features Ready For Paste
+Idc if u paste these just join my server -> https://discord.gg/KmWxn3Ww3E
+Full Time Cheat Dev for hire too -- > Lëgend#0283
